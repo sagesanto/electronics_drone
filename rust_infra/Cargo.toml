@@ -1,0 +1,17 @@
+[package]
+name = "rust_infra"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crc = "3.0.1"
+crc32fast = "1.4.0"
+nalgebra = "0.32.4"
+serial2 = "0.2.20"
+actix-web = "4.5.1"
+serde = { version = "1.0.197", features = ["derive"] }
+reqwest = { version = "0.11.26", features = ["json"] }
+tokio = {version = "1.36.0", features = ["full"] }
+btleplug = "0.11.5"
